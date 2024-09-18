@@ -6,7 +6,7 @@ from sklearn.metrics import (r2_score, mean_absolute_error, accuracy_score, prec
 from sklearn.svm import SVC, LinearSVC
 
 # Data Reading and Exploration
-data = pd.read_csv(r'C:\Users\shant\Downloads\Second Year\nifty_500.csv')
+data = pd.read_csv(r'C:\Users\shant\Downloads\Second Year\nifty_500.csv')#include your file path
 
 # Convert columns to numeric, handling non-numeric values (including '-')
 for col in ['Change', 'Percentage Change', '365 Day Percentage Change', '30 Day Percentage Change']:
