@@ -107,7 +107,7 @@ print(f'R-squared: {r2_score(y_test_reg_rf, y_pred_reg_rf)}')
 
 # Random Forest for Classification
 
-# Define features and target (use the original data, not the copied one)
+# Define features and target 
 X_clf_rf = data.drop(['Target', 'Company Name', 'Symbol', 'Percentage Change'], axis=1)
 y_clf_rf = data['Target']
 
