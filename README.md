@@ -22,7 +22,7 @@ Model Evaluation Results:
  The Random Forest Classifier demonstrates exceptional performance with high accuracy, precision, recall, and F1-Score. It significantly surpasses the SVM models in overall classification capability.
 
 
- potential issues:
+ Potential issues:
 
 1.Data Imbalance-In svm and lsvm,maybe both the models are biased towards the majority dataset(1) 
 Tried smote to resolve the issue but it gave perfect scores for random forest model(which is not very possible in practical except a few cases)
