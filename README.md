@@ -27,4 +27,6 @@ Model Evaluation Results:
 1.Data Imbalance-In svm and lsvm,maybe both the models are biased towards the majority dataset(1).
 Tried smote to resolve the issue but it gave perfect scores for random forest model(which is not very possible in practical except a few cases)
 
+2.overfitting-The model might not fit well to the unknown data in random forest model based on very close r square scores
+
 
